@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Runnings Class 1]]>
+    </line>
+    <line>
+      <![CDATA[Running Class 1]]>
+    </line>
+    <line>
+      <![CDATA[Logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged in successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21347" started-at="2019-05-15T07:35:06Z" finished-at="2019-05-15T07:35:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21347" started-at="2019-05-15T07:35:06Z" finished-at="2019-05-15T07:35:28Z">
+      <class name="com.javaProject.TestNGClass2">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.javaProject.TestNGClass2@528931cf]" name="verifyLogin" duration-ms="6510" started-at="2019-05-15T07:35:21Z" finished-at="2019-05-15T07:35:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- com.javaProject.TestNGClass2 -->
+      <class name="com.javaProject.TestNGClass1">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.javaProject.TestNGClass1@5faeada1]" name="login" is-config="true" duration-ms="5239" started-at="2019-05-15T07:35:06Z" finished-at="2019-05-15T07:35:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Runnings Class 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.javaProject.TestNGClass2@528931cf]" name="login" is-config="true" duration-ms="4378" started-at="2019-05-15T07:35:12Z" finished-at="2019-05-15T07:35:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Running Class 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.javaProject.TestNGClass1@5faeada1]" name="verifyLogin" duration-ms="5003" started-at="2019-05-15T07:35:16Z" finished-at="2019-05-15T07:35:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.javaProject.TestNGClass1@5faeada1]" name="logout" is-config="true" duration-ms="66" started-at="2019-05-15T07:35:28Z" finished-at="2019-05-15T07:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.javaProject.TestNGClass2@528931cf]" name="logout" is-config="true" duration-ms="133" started-at="2019-05-15T07:35:28Z" finished-at="2019-05-15T07:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.javaProject.TestNGClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
